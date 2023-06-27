@@ -5,7 +5,7 @@ contract SimpleStorage{
     uint256 private number;
 
     function setnumber(uint256 _number) external {
-        number = number;
+        number = _number;
     }
     function getNumber() external view returns (uint){
         return number;
